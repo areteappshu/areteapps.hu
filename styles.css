@@ -65,7 +65,7 @@ a:hover { color: var(--gold-ink); }
   flex-direction: column;
 }
 .hero a:hover { color: var(--gold); }
-.hero__top { padding-block: 2rem; display: flex; justify-content: flex-end; }
+.hero__top { padding-block: 2rem; display: flex; justify-content: flex-end; gap: 2rem; }
 .hero__top a { font-size: 1.05rem; color: var(--bone); }
 .hero__body { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-block: 3rem 6rem; }
 .wordmark {

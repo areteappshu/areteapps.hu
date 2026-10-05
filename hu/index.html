@@ -1,51 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="hu">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Areté Apps</title>
-  <meta name="description" content="Areté Apps is an independent studio building thoughtfully crafted apps for life's important moments. Our first app, Szívem, supports women through pregnancy.">
-  <script>
-    /* Send Hungarian-speaking visitors to /hu/ on their first visit; a language picked with the switch always wins. */
-    try {
-      var chosen = localStorage.getItem("lang");
-      var langs = (navigator.languages || [navigator.language || ""]).join(",").toLowerCase();
-      if (chosen === "hu" || (!chosen && /(^|,)hu\b/.test(langs))) location.replace("/hu/");
-    } catch (e) {}
-  </script>
+  <meta name="description" content="Az Areté Apps független alkalmazásstúdió, amely gondosan megalkotott alkalmazásokat készít az élet fontos pillanataira. Első alkalmazásunk, a Szívem, a várandósság időszakában támogatja a nőket.">
   <meta name="theme-color" content="#1E2A44">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="fonts/cinzel-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../fonts/cinzel-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" hreflang="en" href="https://areteapps.hu/">
   <link rel="alternate" hreflang="hu" href="https://areteapps.hu/hu/">
   <link rel="alternate" hreflang="x-default" href="https://areteapps.hu/">
   <meta property="og:title" content="Areté Apps">
-  <meta property="og:description" content="Thoughtfully built apps for life's important moments.">
-  <meta property="og:url" content="https://areteapps.hu/">
+  <meta property="og:description" content="Gondosan megalkotott alkalmazások az élet fontos pillanataira.">
+  <meta property="og:url" content="https://areteapps.hu/hu/">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="hu_HU">
 </head>
 <body>
   <header class="hero">
     <div class="wrap hero__top">
-      <a href="/hu/" hreflang="hu" lang="hu" data-set-lang="hu">Magyar</a>
+      <a href="/" hreflang="en" lang="en" data-set-lang="en">English</a>
       <a href="mailto:hello@areteapps.hu">hello@areteapps.hu</a>
     </div>
     <div class="wrap hero__body">
       <h1 class="wordmark" aria-label="Areté Apps"><span class="wordmark__letters" aria-hidden="true"><span style="--i:0">A</span><span style="--i:1">R</span><span style="--i:2">E</span><span style="--i:3">T</span><span style="--i:4">É</span></span></h1>
       <div class="wordmark__apps" aria-hidden="true">APPS</div>
-      <p class="tagline">Thoughtfully built apps for life’s important moments.</p>
+      <p class="tagline">Gondosan megalkotott alkalmazások az élet fontos pillanataira.</p>
     </div>
   </header>
 
   <main>
     <section class="section" aria-labelledby="name-heading">
       <div class="wrap split">
-        <h2 id="name-heading">Areté means excellence.</h2>
+        <h2 id="name-heading">Az areté kiválóságot jelent.</h2>
         <div class="prose">
-          <p>We chose the name because life’s important moments deserve tools built with real care. Every app we make is held to that standard.</p>
-          <p class="quiet">An independent app studio from Budapest.</p>
+          <p>Azért választottuk ezt a nevet, mert az élet fontos pillanatai valódi gondossággal készült eszközöket érdemelnek. Minden alkalmazásunkat ehhez a mércéhez igazítjuk.</p>
+          <p class="quiet">Független alkalmazásstúdió Budapestről.</p>
         </div>
       </div>
     </section>
@@ -54,17 +46,17 @@
       <div class="wrap split">
         <div>
           <h2 id="szivem-heading" class="app-name">Szívem</h2>
-          <p class="status">Coming soon on iOS and Android</p>
+          <p class="status">Hamarosan iOS-re és Androidra</p>
         </div>
         <div class="prose">
-          <p>Our first app supports women through pregnancy.</p>
+          <p>Első alkalmazásunk a várandósság időszakában támogatja a nőket.</p>
         </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="contact-heading">
       <div class="wrap split">
-        <h2 id="contact-heading">Get in touch.</h2>
+        <h2 id="contact-heading">Írj nekünk.</h2>
         <div class="prose">
           <p><a class="contact-link" href="mailto:hello@areteapps.hu">hello@areteapps.hu</a></p>
         </div>
@@ -75,9 +67,9 @@
   <footer class="footer">
     <div class="wrap">
       <span>© 2026 Areté Apps Kft.</span>
-      <nav aria-label="Legal">
-        <a href="impresszum.html" lang="hu">Impresszum</a>
-        <a href="adatvedelem.html" lang="hu">Adatvédelem</a>
+      <nav aria-label="Jogi információk">
+        <a href="../impresszum.html" lang="hu">Impresszum</a>
+        <a href="../adatvedelem.html" lang="hu">Adatvédelem</a>
       </nav>
     </div>
   </footer>

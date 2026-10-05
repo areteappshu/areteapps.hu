@@ -4,7 +4,8 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 
 ## Files
 
-- `index.html`: home page
+- `index.html`: home page (English)
+- `hu/index.html`: home page (Hungarian)
 - `impresszum.html`: legal notice (Hungarian, required for a company website)
 - `adatvedelem.html`: privacy notice for this website only
 - `styles.css`: all styles
