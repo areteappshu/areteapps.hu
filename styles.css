@@ -170,7 +170,6 @@ h2 {
 @media (min-width: 40rem) { .legal dl { grid-template-columns: 14rem minmax(0, 1fr); } }
 .legal dt { color: var(--gold-ink); }
 .legal dd { margin: 0 0 0.75rem; }
-.todo { background: #F3E3B5; padding: 0 0.25em; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
