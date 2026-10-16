@@ -16,9 +16,9 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 
 ## Before going live
 
-1. Fill in every highlighted `[...]` value in `impresszum.html` once the company is registered (cégjegyzékszám, adószám, közösségi adószám, exact Berger address).
-2. Until registration is complete, the company name should carry the "b.a." (bejegyzés alatt) suffix: `Areté Apps Kft. b.a.`
-3. Have your ügyvéd check `impresszum.html` and `adatvedelem.html`. Szívem needs its own separate privacy policy before launch.
+1. Have your ügyvéd check `impresszum.html` and `adatvedelem.html`. Szívem needs its own separate privacy policy before launch.
+
+`impresszum.html` lists only the company data the law requires publicly. Never add personal data from the company registry (birth date, mother's name, home address, personal tax ID).
 
 ## Hosting on GitHub Pages
 
