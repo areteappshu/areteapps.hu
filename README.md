@@ -20,20 +20,6 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 2. Repository → Settings → Pages: source "Deploy from a branch", branch `main`, folder `/ (root)`.
 3. Custom domain: `areteapps.hu` (the `CNAME` file sets it). Tick "Enforce HTTPS" once the certificate is issued.
 
-## DNS at Rackhost
-
-Replace the two existing A records (91.227.139.235) with GitHub Pages addresses:
-
-| Hosztnév | Típus | Érték |
-|---|---|---|
-| (empty) | A | 185.199.108.153 |
-| (empty) | A | 185.199.109.153 |
-| (empty) | A | 185.199.110.153 |
-| (empty) | A | 185.199.111.153 |
-| www | CNAME | `areteappshu.github.io` |
-
-Do not touch the MX, SPF, DKIM, DMARC or Google verification records. Email keeps working.
-
 ## Preview locally
 
 ```
