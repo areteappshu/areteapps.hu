@@ -14,12 +14,6 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 - `CNAME`: custom domain for GitHub Pages
 - `.nojekyll`: tells GitHub Pages to serve files as they are
 
-## Hosting on GitHub Pages
-
-1. Push these files to the root of a repository in the Areté Apps GitHub organization, `areteappshu/areteapps.hu` (public, so GitHub Pages works on the free plan).
-2. Repository → Settings → Pages: source "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Custom domain: `areteapps.hu` (the `CNAME` file sets it). Tick "Enforce HTTPS" once the certificate is issued.
-
 ## Preview locally
 
 ```
