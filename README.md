@@ -18,7 +18,7 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 
 1. Have your ügyvéd check `impresszum.html` and `adatvedelem.html`. Szívem needs its own separate privacy policy before launch.
 
-`impresszum.html` lists only the company data the law requires publicly. Never add personal data from the company registry (birth date, mother's name, home address, personal tax ID).
+`impresszum.html` lists only the company data the law requires publicly. Never add personal data from the company registry (names, birth date, mother's name, home address, personal tax ID).
 
 ## Hosting on GitHub Pages
 
