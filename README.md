@@ -10,8 +10,9 @@ Static website for Areté Apps Kft. Plain HTML and CSS, no build step, no cookie
 - `adatvedelem.html`: privacy notice for this website only
 - `styles.css`: all styles
 - `fonts/`: Cinzel and Cormorant Garamond (SIL Open Font License)
-- `favicon.svg`: browser tab icon
-- `apple-touch-icon.png`: iOS home-screen icon (180×180, rendered from `favicon.svg`)
+- `favicon.svg`: browser tab icon (simplified mark, drawn for small sizes)
+- `favicon.ico`: 16/32/48 px fallback for browsers without SVG favicons
+- `apple-touch-icon.png`: iOS home-screen icon (180×180, detailed mark; at this size the fine leaves stay legible)
 - `CNAME`: custom domain for GitHub Pages
 - `.nojekyll`: tells GitHub Pages to serve files as they are
 
